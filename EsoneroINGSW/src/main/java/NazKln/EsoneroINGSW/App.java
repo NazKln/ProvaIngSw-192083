@@ -30,5 +30,6 @@ public class App
         	System.out.println(vediRew.get(i));
         }
         
+        
     }
 }

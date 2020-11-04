@@ -1,6 +1,8 @@
 package NazKln.EsoneroINGSW;
 
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Vector;
 
 public class MyListUtil 
 {
@@ -11,6 +13,7 @@ public class MyListUtil
 	}
 	
 	public ArrayList<Integer> OrdinaCrescente(ArrayList<Integer> lista)
+	//public boolean OrdinaCrescente(ArrayList<Integer> lista)
 	{
 		list= new ArrayList<Integer>(lista);
 		for(int i=0; i<list.size(); i++)
@@ -55,4 +58,5 @@ public class MyListUtil
 		}
 		return list;
 	}
+	
 }
