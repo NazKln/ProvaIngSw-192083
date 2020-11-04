@@ -15,7 +15,7 @@ public class App
     	lista.add(7);
     	lista.add(2);
         MyListUtil ml= new MyListUtil();
-        
+        //Commento da dev
         ArrayList vedi= new ArrayList<Integer>(ml.OrdinaCrescente(lista));
         
         for(int i=0; i<vedi.size(); i++)
@@ -30,6 +30,6 @@ public class App
         	System.out.println(vediRew.get(i));
         }
         
-        
+       
     }
 }
